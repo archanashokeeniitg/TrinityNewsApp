@@ -15,6 +15,8 @@
 		952EC020264F528200519A72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952EC01E264F528200519A72 /* LaunchScreen.storyboard */; };
 		952EC02B264F528300519A72 /* TheNewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952EC02A264F528300519A72 /* TheNewsAppTests.swift */; };
 		952EC036264F528300519A72 /* TheNewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952EC035264F528300519A72 /* TheNewsAppUITests.swift */; };
+		7941337F77A646C59454C4E1 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = EE785A9004A24F388016DC31 /* amplifyconfiguration.json */; };
+		D99AC6020D8C47FE822A793A /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E1405C8937C747EDB5AF1D51 /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		952EC031264F528300519A72 /* TheNewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheNewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		952EC035264F528300519A72 /* TheNewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNewsAppUITests.swift; sourceTree = "<group>"; };
 		952EC037264F528300519A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E83CFEB45F1C40C09A97D8AF /* amplifytools.xcconfig */ = {isa = PBXFileReference; name = "amplifytools.xcconfig"; path = "amplifytools.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
+		EE785A9004A24F388016DC31 /* amplifyconfiguration.json */ = {isa = PBXFileReference; name = "amplifyconfiguration.json"; path = "amplifyconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E1405C8937C747EDB5AF1D51 /* awsconfiguration.json */ = {isa = PBXFileReference; name = "awsconfiguration.json"; path = "awsconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 		952EC007264F527F00519A72 = {
 			isa = PBXGroup;
 			children = (
+				6FC44EEC5F2D4B4B8BED85EC /* AmplifyConfig */,
 				952EC012264F527F00519A72 /* TheNewsApp */,
 				952EC029264F528300519A72 /* TheNewsAppTests */,
 				952EC034264F528300519A72 /* TheNewsAppUITests */,
@@ -134,6 +140,25 @@
 				952EC037264F528300519A72 /* Info.plist */,
 			);
 			path = TheNewsAppUITests;
+			sourceTree = "<group>";
+		};
+		6FC44EEC5F2D4B4B8BED85EC /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				E83CFEB45F1C40C09A97D8AF /* amplifytools.xcconfig */,
+				EE785A9004A24F388016DC31 /* amplifyconfiguration.json */,
+				E1405C8937C747EDB5AF1D51 /* awsconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		3DAF3054D66E4525A47B3DDC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = undefined;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +268,8 @@
 				952EC020264F528200519A72 /* LaunchScreen.storyboard in Resources */,
 				952EC01D264F528200519A72 /* Preview Assets.xcassets in Resources */,
 				952EC01A264F528200519A72 /* Assets.xcassets in Resources */,
+				7941337F77A646C59454C4E1 /* amplifyconfiguration.json in Resources */,
+				D99AC6020D8C47FE822A793A /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
